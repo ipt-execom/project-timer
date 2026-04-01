@@ -27,6 +27,12 @@
     let settings: Settings = $state(getDefaultSettings());
 
 
+    //change
+
+    parse("{\"theme\":{\"backgroundCol\":\"#00aaca\",\"primaryColor\":\"#80ffff\",\"secondaryColor\":\"#03346E\",\"timerSecondaryColor\":\"#08002a\",\"textColor\":\"#ffe0e0\",\"timerType\":\"radial\",\"fontFamily\":\"Rotobo\"},\"name\":\"IPT 2026\",\"stages\":[{\"id\":\"Opp challenges Rep\",\"time\":60000,\"type\":\"allow-overlap\",\"index\":0},{\"id\":\"Rep's preparation\",\"time\":300000,\"type\":\"allow-overlap\",\"index\":1},{\"id\":\"Report\",\"time\":600000,\"type\":\"allow-overlap\",\"index\":2},{\"id\":\"Opp's clarifying questions\",\"time\":120000,\"type\":\"allow-overlap\",\"index\":3},{\"id\":\"Opp's preparation\",\"time\":180000,\"type\":\"allow-overlap\",\"index\":4},{\"id\":\"Opposition\",\"time\":300000,\"type\":\"allow-overlap\",\"index\":5},{\"id\":\"Rep+Opp discussion\",\"time\":300000,\"type\":\"allow-overlap\",\"index\":6},{\"id\":\"Mod's clarifying questions\",\"time\":120000,\"type\":\"allow-overlap\",\"index\":7},{\"id\":\"Mod's preparation\",\"time\":60000,\"type\":\"allow-overlap\",\"index\":8},{\"id\":\"Moderator's speech\",\"time\":180000,\"type\":\"allow-overlap\",\"index\":9},{\"id\":\"Rep+Opp+Mod discussion\",\"time\":240000,\"type\":\"allow-overlap\",\"index\":10},{\"id\":\"General discussion\",\"time\":300000,\"type\":\"allow-overlap\",\"index\":11},{\"id\":\"Rep's concluding remarks\",\"time\":60000,\"type\":\"allow-overlap\",\"index\":12},{\"id\":\"Jury questions\",\"time\":360000,\"type\":\"allow-overlap\",\"index\":13},{\"id\":\"Jury decide the grades\",\"time\":60000,\"type\":\"allow-overlap\",\"index\":14},{\"id\":\"Jury comments\",\"time\":240000,\"type\":\"allow-overlap\",\"index\":15}],\"showSettings\":[\"m\",\"s\"],\"currentStageTime\":0,\"activeStage\":0}")
+
+    //
+
 
 
     let isElectron: boolean = $state(false);
