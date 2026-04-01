@@ -13,7 +13,7 @@ package-lock.json
 saves
 release
 node_modules
-dist
+
 dist-ssr
 *.local
 
